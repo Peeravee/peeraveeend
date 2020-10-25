@@ -3,16 +3,17 @@ import 'firebase/firestore'
 // Initialize Cloud Firestore through Firebase
 if (!firebase.apps.length) {
   const firebaseConfig = {
-    apiKey: 'AIzaSyCGjbAdnDWfpNzkiOqEBncZQBjsFooNpD4',
-    authDomain: 'vuecloud-ec1c4.firebaseapp.com',
-    databaseURL: 'https://vuecloud-ec1c4.firebaseio.com',
-    projectId: 'vuecloud-ec1c4',
-    storageBucket: 'vuecloud-ec1c4.appspot.com',
-    messagingSenderId: '634317129249',
-    appId: '1:634317129249:web:e9ad2ad90d8efb34eb4560',
-    measurementId: 'G-NJRLCM883T',
+    apiKey: 'AIzaSyBgWs3nVLMXCdMpe_n8HzhZzbXtpedy3rg',
+    authDomain: 'peeravee125.firebaseapp.com',
+    databaseURL: 'https://peeravee125.firebaseio.com',
+    projectId: 'peeravee125',
+    storageBucket: 'peeravee125.appspot.com',
+    messagingSenderId: '244422546801',
+    appId: '1:244422546801:web:ccd7eb2e04ac039a2652d0',
+    measurementId: 'G-D74WEE2F3X',
   }
 
   firebase.initializeApp(firebaseConfig)
 }
+
 export const db = firebase.firestore()

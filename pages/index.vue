@@ -34,14 +34,11 @@
         </v-row>
         <br />
         <center>
-          <v-img
-            src="https://th.qr-code-generator.com/wp-content/themes/qr/new_structure/markets/basic_market/generator/dist/generator/assets/images/websiteQRCode_noFrame.png"
-            width="200px"
-          ></v-img>
+          <v-img></v-img>
         </center>
         <br />
         <center>
-          <h3>Price :{{ price - 1 }}.XX</h3>
+          <h3></h3>
         </center>
         <v-btn :disabled="!valid" color="success" @click="addData">
           ชำระเงิน
